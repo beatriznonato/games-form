@@ -10,7 +10,7 @@ header{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    position: sticky;
+    /* position: sticky; ELEMENTO DE ROLAGEM */
     top:0;
     height: 200px;
   }
@@ -47,7 +47,7 @@ header{
     border-radius: 5px;
   }
   
-  #check-generos{
+  #genero{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
