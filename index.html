@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
+    <title>Formulário Game</title>
+</head>
+<body>
+    <header>
+        <h1>Pesquisa</h1>
+        <h2>Jogos Eletrônicos</h2>
+    </header>
+    <form action="http://www.google.com" method="post">
+        <section>
+            <div>
+                <h3>Sobre você</h3>
+                <label for="nome">Insira seu nome completo:</label>
+                <input name="nome" type="text" placeholder="Digite aqui seu nome">
+                <label for="idade">Informe sua idade:</label>
+                <input name="idade" type="number" min="5" max="110" value="18">
+                <label for="email">Informe seu e-mail:</label>
+                <input name="email" type="email" placeholder="Digite seu email">
+                <label name="senha" for="">Nova senha:</label>
+                <input name="senha" type="password" placeholder="Digite sua senha">
+            </div>
+            <div>
+                <h3>Suas preferências de entretenimento</h3>
+                <label for="plataforma">Informe qual a plataforma que você mais usa pra jogar:</label>
+                <select name="plataforma">
+                    <option value="">Escolha uma das opções</option>
+                    <option value="ps">Sony PlayStation</option>
+                    <option value="xb">Microsoft Xbox</option>
+                    <option value="nt">Nintendo</option>
+                    <option value="pc">Computador</option>
+                    <option value="sp">Smartphone</option>
+                </select>
+                <label for="check-generos">Quais os seus gêneros preferidos?</label>
+                <div id="genero">
+                    <label for="acao"><input name="acao" type="checkbox">Ação</label>
+                    <label for="aventura"><input name="aventura" type="checkbox">Aventura</label>
+                    <label for="corrida"><input name="corrida" type="checkbox">Corrida</label>
+                    <label for="esporte"><input name="esporte" type="checkbox">Esporte</label>
+                    <label for="estrategia"><input name="estrategia" type="checkbox">Estrategia</label>
+                    <label for="luta"><input name="luta" type="checkbox">Luta</label>
+                    <label for="online"><input name="online" type="checkbox">On-Line</label>
+                    <label for="rpg"><input name="rpg" type="checkbox">RPG</label>
+                    <label for="simulacao"><input name="simulacao" type="checkbox">Simulação</label>
+                    <label for="tiro"><input name="tiro" type="checkbox">Tiro</label>
+                </div>
+                <label for="relevancia">Qual a relevância de cada um dos seguintes critérios para a sua experiência?</label>
+                <div id="relevancia">
+                    <div>
+                        <label class="block" for="h">História:</label>
+                        <label class="block" for="g">Gráficos:</label>
+                        <label class="block" for="j">Jogabilidade:</label>
+                        <label class="block" for="m">Multiplayer:</label>
+                        <label class="block" for="d">Diversão:</label>
+                    </div>
+                    <div class='categoria'  id="historia">
+                        <label><input type="radio" name="h">3</label>
+                        <label><input type="radio" name="h">2</label>
+                        <label><input type="radio" name="h">1</label>
+                        <label><input type="radio" name="h">0</label>
+                    </div>
+                    <div class="categoria" id="graficos">
+                        <label><input type="radio" name="g">3</label>
+                        <label><input type="radio" name="g">2</label>
+                        <label><input type="radio" name="g">1</label>
+                        <label><input type="radio" name="g">0</label>
+                    </div>
+                    <div class="categoria" id="jogabilidade">
+                        <label><input type="radio" name="j">3</label>
+                        <label><input type="radio" name="j">2</label>
+                        <label><input type="radio" name="j">1</label>
+                        <label><input type="radio" name="j">0</label>
+                    </div>
+                    <div class="categoria" id="multiplayer">
+                        <label><input type="radio" name="m">3</label>
+                        <label><input type="radio" name="m">2</label>
+                        <label><input type="radio" name="m">1</label>
+                        <label><input type="radio" name="m">0</label>
+                    </div>
+                    <div class="categoria" id="diversao">
+                        <label><input type="radio" name="d">3</label>
+                        <label><input type="radio" name="d">2</label>
+                        <label><input type="radio" name="d">1</label>
+                        <label><input type="radio" name="d">0</label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<div> 
+        <button type="submit">Enviar Resposta</button>
+    </div>
+         </section>
+     </form>
+</body>
+</html>
