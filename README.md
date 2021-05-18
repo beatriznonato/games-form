@@ -1,4 +1,4 @@
-# GamesForm :video_game:
+# Games Form :video_game:
 
 ### Description
 
